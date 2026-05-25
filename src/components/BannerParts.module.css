@@ -1,0 +1,31 @@
+.bannerParts {
+  margin-left: -1049.1px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-align: left;
+  font-size: 47px;
+  color: var(--black);
+  font-family: Archivo;
+}
+.bannerItemsIcon {
+  height: 58px;
+  width: 58px;
+  position: relative;
+}
+.n7 {
+  background: var(--sky);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.n7,
+.say {
+  margin: 0;
+  position: relative;
+}
+.httpslottiefilescomanimatIcon {
+  height: 66px;
+  width: 93.1px;
+  position: relative;
+  object-fit: contain;
+}

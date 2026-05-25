@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Regular:ital,wght@0,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Bold:ital,wght@0,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Medium:ital,wght@0,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono+Medium:ital,wght@0,400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --black: #000d12;
+  --blue: #00b4fd;
+  --Gray-100: #0d0d0c;
+  --shape: #1b1b1b;
+  --white: #e9f4f9;
+  --White: #fff;
+
+  /* Gradients */
+  --sky: linear-gradient(106.53deg, var(--blue), #003ace);
+}

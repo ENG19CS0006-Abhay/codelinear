@@ -1,0 +1,45 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.6px;
+  text-align: left;
+  font-size: 13.8px;
+  color: #586e84;
+  font-family: Roboto;
+}
+.root[data-name="SmartFinder"] .logoSegmentsIcon {
+  width: 19.1px;
+}
+.root[data-name="Zoomerr"] .logoSegmentsIcon {
+  width: 18.4px;
+}
+.root[data-name="ArtVenue"] .logoSegmentsIcon {
+  width: 32.1px;
+}
+.root[data-name="Kontrastr"] .logoSegmentsIcon {
+  height: 16.8px;
+  width: 13.7px;
+}
+.root[data-name="Waves"] .logoSegmentsIcon {
+  width: 12.1px;
+}
+.root[data-name="ArtVenue"] .shells,
+.root[data-name="Kontrastr"] .shells,
+.root[data-name="SmartFinder"] .shells,
+.root[data-name="Zoomerr"] .shells {
+  font-weight: 700;
+}
+.root[data-name="Waves"] .shells {
+  font-size: 10.3px;
+  line-height: unset;
+  font-family: unset;
+}
+.logoSegmentsIcon {
+  height: 18.4px;
+  width: 17.5px;
+  position: relative;
+}
+.shells {
+  position: relative;
+}

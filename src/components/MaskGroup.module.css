@@ -1,0 +1,59 @@
+.maskGroup {
+  height: 232px;
+  width: 440px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.bGRect,
+.infoArea,
+.maskShapes {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.bGRect {
+  height: 301.9px;
+  width: 680.7px;
+  right: -141.2px;
+  bottom: -59.8px;
+  background-color: #01b4fd;
+  filter: blur(120px);
+  border-radius: 50%;
+  opacity: 0.4;
+  z-index: 0;
+}
+.infoArea,
+.maskShapes {
+  filter: blur(100px);
+  border-radius: 50%;
+}
+.maskShapes {
+  height: 251.4px;
+  width: 251.4px;
+  right: 12.9px;
+  bottom: -73.1px;
+  background-color: #013acf;
+  z-index: 1;
+}
+.infoArea {
+  height: 127.6px;
+  width: 127.6px;
+  bottom: -4.7px;
+  left: 67.3px;
+  background-color: #74f1ae;
+  mix-blend-mode: color-dodge;
+  z-index: 2;
+}
+@media screen and (max-width: 1350px) {
+  .maskGroup {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .maskGroup {
+    min-width: 100%;
+  }
+}
+

@@ -1,0 +1,359 @@
+.container,
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.navigation {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.cb7Parent,
+.items {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.items {
+  width: 100%;
+  background-color: var(--black);
+  align-items: flex-start;
+  padding: 127px 80px 127px 81px;
+  text-align: right;
+  font-size: 572.6px;
+  color: transparent;
+  font-family: Archivo;
+}
+.cb7Parent {
+  height: 427px;
+  width: 1279px;
+  border-radius: 27px;
+  background: linear-gradient(99.21deg, #031e2a, var(--black) 63.08%);
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: 112.3px 64px 112.7px 65px;
+  position: relative;
+  isolation: isolate;
+  gap: 84.2px;
+}
+.cb7 {
+  margin: 0 !important;
+  height: 687px;
+  width: 1141px;
+  position: absolute;
+  top: -160.7px;
+  right: -85.6px;
+  display: inline-block;
+  -webkit-text-stroke: 1.6px #02171f;
+  paint-order: stroke fill;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 1;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 53px;
+  color: var(--white);
+}
+.cb7HelpsYour,
+.takeTheFull {
+  position: relative;
+  display: inline-block;
+}
+.takeTheFull {
+  margin: 0;
+  width: 607.8px;
+}
+.cb7HelpsYour {
+  width: 462.9px;
+  font-size: 16px;
+  line-height: 130%;
+  opacity: 0.8;
+}
+.cluster,
+.listing {
+  display: flex;
+  align-items: flex-start;
+}
+.listing {
+  height: 125.3px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.cluster {
+  height: 49px;
+  gap: 40px;
+}
+.clusterChild {
+  padding: 15px 59px;
+}
+.clusterItem {
+  padding: 15px 51px;
+}
+.actionContent,
+.callToActionBlock {
+  display: flex;
+  align-items: flex-start;
+}
+.callToActionBlock {
+  width: 100%;
+  background-color: var(--black);
+  overflow: hidden;
+  padding: 57px 80px;
+  box-sizing: border-box;
+  gap: 80px;
+  text-align: left;
+  font-size: 53px;
+  color: var(--white);
+  font-family: Archivo;
+  flex-wrap: wrap;
+}
+.actionContent {
+  flex-direction: column;
+  gap: 32px;
+}
+.cb7HelpsYour2 {
+  width: min(462.9px, 100%);
+  position: relative;
+  font-size: 16px;
+  line-height: 130%;
+  display: inline-block;
+  opacity: 0.7;
+}
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 76.5px 0 0;
+}
+.contactRequest {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.footerContainer,
+.mainBlock {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerContainer {
+  height: auto;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px 80px;
+  position: fixed;
+  top: 16px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  pointer-events: none;
+  text-align: left;
+  font-size: 24px;
+  color: var(--white);
+  font-family: Archivo;
+}
+.mainBlock {
+  flex: 1;
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  background-color: rgba(47, 47, 47, 0.7);
+  overflow: hidden;
+  align-items: center;
+  padding: 9px 10px;
+  gap: 160px;
+  pointer-events: auto;
+  max-width: 860px;
+}
+.n7 {
+  margin: 0;
+  position: relative;
+}
+.utilityMenuParent {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 100%;
+}
+.menuItemArea,
+.utilityMenu {
+  font-family: "Chivo Mono Medium";
+  font-size: 12px;
+  color: var(--white);
+}
+.utilityMenu {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+  text-align: left;
+}
+.menuItemArea {
+  height: 16px;
+}
+.menuItemArea3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.aboutUs,
+.icon {
+  position: relative;
+}
+.aboutUs {
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.icon {
+  height: 13.7px;
+  width: 13.7px;
+  object-fit: contain;
+  display: none;
+}
+@media screen and (max-width: 1350px) {
+  .cb7Parent {
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+  .callToActionBlock {
+    gap: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .footerContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .mainBlock,
+  .utilityMenuParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .items {
+    height: auto;
+    padding: 83px 40px;
+    box-sizing: border-box;
+  }
+  .cb7Parent {
+    height: auto;
+    gap: 42px;
+  }
+  .cb7 {
+    font-size: 229px;
+    line-height: 412px;
+  }
+  .advantage {
+    gap: 16px;
+  }
+  .takeTheFull {
+    font-size: 42px;
+    line-height: 51px;
+    width: 100%;
+  }
+  .cb7HelpsYour {
+    width: 100%;
+  }
+  .listing {
+    height: auto;
+  }
+  .cluster {
+    flex-wrap: wrap;
+  }
+  .callToActionBlock {
+    height: auto;
+    gap: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .actionContent {
+    gap: 16px;
+    width: 100%;
+  }
+  .actionButtons {
+    padding-top: 0;
+    width: 100%;
+  }
+  .contactRequest {
+    flex-wrap: wrap;
+  }
+  .footerContainer {
+    padding: 12px 20px;
+  }
+  .mainBlock {
+    gap: 40px;
+  }
+  .utilityMenuParent {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cb7Parent {
+    gap: 21px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+  .cb7 {
+    font-size: 143px;
+    line-height: 275px;
+  }
+  .takeTheFull {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .cluster {
+    gap: 20px;
+  }
+  .callToActionBlock {
+    gap: 32px;
+    padding: 32px 20px;
+  }
+  .contactRequest {
+    gap: 20px;
+  }
+  .footerContainer {
+    padding: 10px 16px;
+  }
+  .mainBlock {
+    gap: 20px;
+  }
+  .n7 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .utilityMenuParent {
+    gap: 12px;
+  }
+  .items {
+    padding: 60px 20px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+.component3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  text-align: right;
+  font-size: 14px;
+  color: var(--blue);
+  font-family: "Chivo Mono Medium";
+}
+.learnMoreParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.learnMore {
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.spacersIcon {
+  height: 14.5px;
+  width: 13.6px;
+  position: relative;
+  object-fit: contain;
+}
+.component3Child {
+  width: 33.6px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--blue);
+  box-sizing: border-box;
+}

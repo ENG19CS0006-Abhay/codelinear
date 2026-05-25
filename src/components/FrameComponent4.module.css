@@ -1,0 +1,291 @@
+.studyTitles,
+.studyTitlesParent {
+  display: flex;
+  align-items: flex-start;
+}
+.studyTitlesParent {
+  width: 100%;
+  background-color: var(--black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 43.2px 80px 120px;
+  box-sizing: border-box;
+  gap: 72px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 53px;
+  color: var(--white);
+  font-family: Archivo;
+}
+.studyTitles {
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+}
+.ourCaseStudies {
+  margin: 0;
+  height: auto;
+  width: min(463.3px, 100%);
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent,
+.layoutsParent {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  gap: 33.3px;
+}
+.layoutsParent {
+  flex-shrink: 0;
+}
+.zoomerrCaseStudy,
+.zoomerrContent {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.zoomerrCaseStudy {
+  border-radius: 18px;
+  background-color: #01141b;
+  align-items: flex-end;
+  padding: 25.5px 12px 31px 24px;
+  gap: 40px;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-left: 0;
+  position: relative;
+  text-align: left;
+  font-size: 12px;
+  color: #2490bb;
+  font-family: "Chivo Mono Medium";
+  width: 100%;
+}
+.zoomerrContent {
+  border-radius: 11.4px;
+  background-color: #07193c;
+  align-items: flex-start;
+  padding: 40px 27px;
+}
+.zoomerrIcons {
+  width: 367.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 24px 90px;
+}
+.vectorIcon {
+  height: 138.7px;
+  width: 138px;
+  position: relative;
+}
+.caseStudyDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 24.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameContainer,
+.frameGroup,
+.gettingStartedParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+}
+.frameContainer,
+.gettingStartedParent {
+  gap: 8px;
+}
+.gettingStartedParent {
+  width: 480px;
+  gap: 11px;
+}
+.gettingStarted {
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.howWeHelp {
+  margin: 0;
+  width: 422.6px;
+  position: relative;
+  color: var(--white);
+  display: inline-block;
+}
+.imagePlaceholder {
+  width: 107px;
+  height: 13px;
+  display: flex;
+  align-items: flex-start;
+}
+.frameChild {
+  padding: 10px 183px;
+}
+.frameWrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv,
+.frameParent2 {
+  display: flex;
+  flex-shrink: 0;
+}
+.frameDiv {
+  width: 629.1px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameParent2 {
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+.frameItem {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  object-fit: contain;
+}
+.ellipseParent {
+  display: flex;
+  align-items: flex-start;
+  gap: 7.7px;
+}
+.frameInner {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  border: 0.9px solid #0b4b63;
+  box-sizing: border-box;
+}
+.rectBackground {
+  height: 11.9px;
+  width: 38px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #0b4b63;
+}
+.frameIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+}
+.component5Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10.5px 0 0;
+}
+@media screen and (max-width: 1350px) {
+  .zoomerrCaseStudy {
+    flex-wrap: wrap;
+  }
+  .caseStudyDetails,
+  .zoomerrContent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .studyTitlesParent {
+    padding-top: 28px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+  }
+  .zoomerrCaseStudy {
+    gap: 39px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .studyTitlesParent {
+    gap: 36px;
+    padding: 28px 40px 60px;
+    box-sizing: border-box;
+  }
+  .ourCaseStudies {
+    font-size: 42px;
+    line-height: 51px;
+  }
+  .frameParent {
+    gap: 17px;
+    width: 100%;
+  }
+  .layoutsParent {
+    width: 100%;
+  }
+  .zoomerrCaseStudy {
+    gap: 19px;
+    flex-direction: column;
+  }
+  .caseStudyDetails,
+  .zoomerrContent {
+    min-width: 100%;
+    width: 100%;
+  }
+  .frameGroup {
+    gap: 23px;
+  }
+  .howWeHelp {
+    font-size: 34px;
+    line-height: 41px;
+    width: 100%;
+  }
+  .gettingStartedParent {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .studyTitlesParent {
+    gap: 18px;
+    padding: 20px 20px 50px;
+    box-sizing: border-box;
+  }
+  .ourCaseStudies {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .zoomerrCaseStudy,
+  .zoomerrContent {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .zoomerrContent {
+    padding-top: 25.5px;
+    padding-bottom: 26px;
+  }
+  .zoomerrIcons {
+    gap: 45px;
+  }
+  .howWeHelp {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .frameChild {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+

@@ -1,0 +1,220 @@
+.contactFooter {
+  width: 100%;
+  height: auto;
+  background-color: var(--black);
+  overflow: hidden;
+  /* clip decorative blobs */
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 130px 53px 32px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 80px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: var(--white);
+  font-family: Archivo;
+}
+.contactFooterChild {
+  width: 100%;
+  height: 556.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 547.5px;
+  left: 0;
+  filter: blur(200px);
+  border-radius: 50%;
+  background: linear-gradient(
+    103.43deg,
+    rgba(0, 180, 253, 0.05),
+    rgba(0, 58, 206, 0.05)
+  );
+  flex-shrink: 0;
+}
+.contentDivision,
+.infoLayout {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.infoLayout {
+  gap: 50.7px;
+  flex-shrink: 0;
+}
+.contentDivision {
+  gap: 34px;
+}
+.officeColumn,
+.officeData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 128px;
+}
+.officeData {
+  gap: 16px;
+}
+.linktiaInfosystemsLtd,
+.london {
+  position: relative;
+  line-height: 130%;
+}
+.london {
+  font-weight: 500;
+}
+.linktiaInfosystemsLtd {
+  width: 268.5px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.serviceColumnParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.serviceColumn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.serviceEmptyIcon {
+  height: 14.5px;
+  width: 13.6px;
+  position: relative;
+  object-fit: contain;
+}
+.openBanking {
+  width: 136.5px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.dubaiBlock,
+.serviceColumn4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.dubaiBlock {
+  flex-direction: column;
+  gap: 107px;
+}
+.miscArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.londonSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 107px;
+}
+.linktiaInfosystemsLtd3 {
+  width: 211.3px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  opacity: 0.7;
+}
+.copyrightNotice {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: rgba(233, 244, 249, 0.3);
+}
+.copyright2022 {
+  height: auto;
+  width: min(779.4px, 100%);
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 1350px) {
+  .infoLayout {
+    flex-wrap: wrap;
+  }
+  .contentDivision {
+    flex: 1;
+    min-width: 280px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .contentDivision {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .officeColumn,
+  .dubaiBlock,
+  .londonSecond {
+    flex: 1;
+    min-width: 160px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contactFooter {
+    gap: 40px;
+    padding: 60px 40px 32px;
+    box-sizing: border-box;
+  }
+  .infoLayout {
+    gap: 25px;
+    flex-direction: column;
+  }
+  .contentDivision {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .officeColumn,
+  .dubaiBlock,
+  .londonSecond {
+    flex: 1;
+    min-width: 140px;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactFooter {
+    gap: 32px;
+    padding: 48px 20px 24px;
+    box-sizing: border-box;
+  }
+  .contentDivision {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .officeColumn {
+    gap: 32px;
+    width: 100%;
+  }
+  .dubaiBlock {
+    gap: 32px;
+    width: 100%;
+  }
+  .londonSecond {
+    gap: 32px;
+    width: 100%;
+  }
+  .copyright2022 {
+    font-size: 12px;
+  }
+}
+
+

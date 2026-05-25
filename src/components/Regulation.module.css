@@ -1,0 +1,115 @@
+.regulation {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  text-align: left;
+  font-size: 16px;
+  color: var(--black);
+  font-family: Archivo;
+}
+.iphone13Pro {
+  height: auto;
+  width: 268.3px;
+  max-width: 100%;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.frameParent,
+.requirements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.requirements {
+  padding: 20px 0;
+  gap: 43px;
+}
+.frameParent {
+  gap: 24px;
+}
+.frameGroup {
+  width: 269px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.frameChild {
+  height: 31.4px;
+  width: 30px;
+  position: relative;
+  display: none;
+}
+.fullyCompliantWith {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+}
+.theGovernanceOf {
+  width: 268.5px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  opacity: 0.7;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.defaultsParent {
+  width: 302px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.defaultsIcon {
+  height: 31.4px;
+  width: 30px;
+  position: relative;
+}
+.preIntegratedSecuritySystem {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.digitalSystem,
+.transformation {
+  width: 302px;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.digitalSystem {
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .regulation {
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .iphone13Pro {
+    width: 100%;
+    max-width: 300px;
+  }
+  .requirements {
+    flex: 1;
+    min-width: 240px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .regulation {
+    gap: 20px;
+  }
+  .requirements {
+    gap: 21px;
+  }
+}
+

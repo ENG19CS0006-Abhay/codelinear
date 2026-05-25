@@ -1,0 +1,487 @@
+.instanceParent,
+.n7Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.instanceParent {
+  background-color: var(--White);
+  text-align: left;
+  font-size: 572.6px;
+  color: transparent;
+  font-family: Archivo;
+}
+.n7Parent {
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 100px 80px 115.6px 81px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 155.7px;
+}
+.n7 {
+  margin: 0 !important;
+  width: 744px;
+  height: 687px;
+  position: absolute;
+  top: -66.7px;
+  left: 277px;
+  display: inline-block;
+  -webkit-text-stroke: 1.6px #e9f4f9;
+  paint-order: stroke fill;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 778.7px;
+  height: 778.7px;
+  top: 60%;
+  left: -364.2px;
+  filter: blur(100px);
+  border-radius: 50%;
+  background: linear-gradient(
+    100.92deg,
+    rgba(0, 208, 253, 0.1),
+    rgba(0, 21, 206, 0.1)
+  );
+}
+.frameChild,
+.frameInner,
+.frameItem,
+.vectorIcon,
+.whitespace {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.whitespace {
+  width: 861px;
+  height: 1829px;
+  top: 957.3px;
+  left: 886.9px;
+  display: inline-block;
+  opacity: 0.2;
+}
+.frameInner,
+.frameItem,
+.vectorIcon {
+  z-index: 1;
+}
+.vectorIcon {
+  width: 86.33%;
+  height: 47.04%;
+  top: 15.8%;
+  right: 66.67%;
+  bottom: 37.16%;
+  left: -53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameInner,
+.frameItem {
+  filter: blur(100px);
+  border-radius: 50%;
+}
+.frameItem {
+  width: 585.9px;
+  height: 585.9px;
+  top: -260.9px;
+  left: -85.9px;
+  background: linear-gradient(
+    103.43deg,
+    rgba(253, 167, 0, 0.02),
+    rgba(206, 87, 0, 0.02)
+  );
+}
+.frameInner {
+  width: 778.7px;
+  height: 778.7px;
+  top: -91.6px;
+  left: 661.3px;
+  background: linear-gradient(
+    103.43deg,
+    rgba(253, 167, 0, 0.05),
+    rgba(206, 87, 0, 0.05)
+  );
+}
+.componentContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 102px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameParent,
+.innerContent,
+.innerContentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  gap: 16px;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: 53px;
+  color: var(--black);
+  font-family: Archivo;
+}
+.innerContent,
+.innerContentParent {
+  gap: 36px;
+}
+.innerContent {
+  justify-content: center;
+  gap: 16px;
+}
+.digitalBankingOutOfTheBox {
+  margin: 0;
+  width: min(439px, 100%);
+  position: relative;
+  display: inline-block;
+  opacity: 0.95;
+}
+.n7HelpsYour {
+  width: min(379px, 100%);
+  position: relative;
+  font-size: 16px;
+  line-height: 130%;
+  display: inline-block;
+  opacity: 0.7;
+}
+.frameButton {
+  padding: 15px 51px;
+}
+.frameGroup,
+.regulationParent {
+  display: flex;
+  align-items: center;
+}
+.regulationParent {
+  flex-direction: column;
+  gap: 110px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroup {
+  padding: 0 19px;
+  gap: 76px;
+  text-align: left;
+  font-size: 16px;
+  color: var(--black);
+  font-family: Archivo;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer {
+  padding: 20px 0;
+  gap: 43px;
+}
+.frameDiv {
+  gap: 24px;
+}
+.frameParent2 {
+  width: 269px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.frameIcon {
+  height: 31.4px;
+  width: 30px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.noLegacyIt,
+.ourDigitalBanking {
+  position: relative;
+  line-height: 130%;
+}
+.noLegacyIt {
+  flex: 1;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.ourDigitalBanking {
+  width: 268.5px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.monetization {
+  width: 269px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.interfaces {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.interfacesChild {
+  height: 31.4px;
+  width: 30px;
+  position: relative;
+}
+.adaptiveIntelligent,
+.ambientUserExperience,
+.cloudNativeWithLower {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  opacity: 0.7;
+  min-width: 145px;
+}
+.ambientUserExperience,
+.cloudNativeWithLower {
+  min-width: 146px;
+}
+.cloudNativeWithLower {
+  min-width: 152px;
+}
+.iphone13Pro {
+  height: auto;
+  width: 268.3px;
+  max-width: 100%;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.n7Group {
+  border-radius: 27px;
+  background: linear-gradient(99.21deg, #031e2a, var(--black) 63.08%);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 112.3px 64px 112.7px 65px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 84.2px;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.n72 {
+  margin: 0 !important;
+  height: 687px;
+  width: 744px;
+  position: absolute;
+  top: -160.7px;
+  right: -85.6px;
+  display: inline-block;
+  -webkit-text-stroke: 1.6px #02171f;
+  paint-order: stroke fill;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+.takeTheFullAdvantageOfGoiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+  font-size: 53px;
+  color: var(--white);
+}
+.n7HelpsYour2,
+.takeTheFull {
+  position: relative;
+  display: inline-block;
+}
+.takeTheFull {
+  margin: 0;
+  width: min(607.8px, 100%);
+}
+.n7HelpsYour2 {
+  width: min(462.9px, 100%);
+  font-size: 16px;
+  line-height: 130%;
+  display: inline-block;
+  opacity: 0.7;
+}
+.n7HelpsYour2 {
+  width: 462.9px;
+  font-size: 16px;
+  line-height: 130%;
+  opacity: 0.7;
+}
+.frameWrapper,
+.instanceGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  height: 125.3px;
+  flex-direction: column;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.instanceGroup {
+  height: 49px;
+  gap: 40px;
+}
+.frameChild2 {
+  padding: 15px 59px;
+}
+@media screen and (max-width: 1350px) {
+  .n7Parent {
+    padding-top: 42px;
+    padding-bottom: 49px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .componentContainer {
+    gap: 51px;
+    flex-wrap: wrap;
+  }
+  .frameParent,
+  .regulationParent {
+    flex: 1;
+  }
+  .n7Group {
+    flex-wrap: wrap;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+  .frameWrapper,
+  .takeTheFullAdvantageOfGoiParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .regulationParent,
+  .takeTheFullAdvantageOfGoiParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .n7Parent {
+    gap: 78px;
+    padding: 27px 40px 32px;
+    box-sizing: border-box;
+  }
+  .n7 {
+    font-size: 229px;
+    line-height: 412px;
+  }
+  .whitespace {
+    font-size: 610px;
+    line-height: 1097px;
+  }
+  .componentContainer {
+    gap: 25px;
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+  .digitalBankingOutOfTheBox {
+    font-size: 42px;
+    line-height: 51px;
+  }
+  .regulationParent {
+    gap: 55px;
+  }
+  .frameGroup {
+    gap: 38px;
+    flex-wrap: wrap;
+  }
+  .frameContainer,
+  .iphone13Pro {
+    flex: 1;
+  }
+  .n7Group {
+    gap: 42px;
+  }
+  .n72 {
+    font-size: 229px;
+    line-height: 412px;
+  }
+  .takeTheFullAdvantageOfGoiParent {
+    gap: 16px;
+  }
+  .takeTheFull {
+    font-size: 42px;
+    line-height: 51px;
+  }
+  .frameWrapper {
+    height: auto;
+    min-width: 100%;
+  }
+  .instanceGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .n7Parent {
+    gap: 39px;
+  }
+  .n7 {
+    font-size: 143px;
+    line-height: 275px;
+  }
+  .whitespace {
+    font-size: 381px;
+    line-height: 732px;
+  }
+  .innerContentParent {
+    gap: 18px;
+  }
+  .digitalBankingOutOfTheBox {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .regulationParent {
+    gap: 27px;
+  }
+  .frameGroup {
+    gap: 19px;
+  }
+  .frameContainer {
+    gap: 21px;
+  }
+  .interfaces {
+    flex-wrap: wrap;
+  }
+  .n7Group {
+    gap: 21px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+  .n72 {
+    font-size: 143px;
+    line-height: 275px;
+  }
+  .takeTheFull {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .instanceGroup {
+    gap: 20px;
+  }
+}
+
+
+

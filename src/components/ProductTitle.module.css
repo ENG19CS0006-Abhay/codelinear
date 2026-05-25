@@ -1,0 +1,147 @@
+.productTitle {
+  width: 100%;
+  background-color: var(--black);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 80.2px 80px 77.4px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 239.2px;
+  text-align: left;
+  font-size: 572.6px;
+  color: transparent;
+  font-family: Archivo;
+}
+.cb7 {
+  margin: 0 !important;
+  height: 687px;
+  width: 1141px;
+  position: absolute;
+  top: -2.2px;
+  left: -163.3px;
+  display: inline-block;
+  -webkit-text-stroke: 1.6px #02171f;
+  paint-order: stroke fill;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+.frameParent,
+.productTitleInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.productTitleInner {
+  height: 384.7px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 53px;
+  color: var(--white);
+  font-family: Archivo;
+}
+.frameParent {
+  height: 308px;
+  gap: 16px;
+}
+.aCompleteCloudBasedCoreBaParent,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+.aCompleteCloudBasedCoreBaParent {
+  gap: 16px;
+}
+.aCompleteCloudBased,
+.fasterTimeTo {
+  position: relative;
+  display: inline-block;
+}
+.aCompleteCloudBased {
+  margin: 0;
+  width: min(607.8px, 100%);
+}
+.fasterTimeTo {
+  width: min(327.2px, 100%);
+  font-size: 16px;
+  line-height: 130%;
+  opacity: 0.8;
+}
+.frameChild {
+  padding: 15px 51px;
+}
+.productTitleChild {
+  height: 461.4px;
+  width: 651.7px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1350px) {
+  .productTitle {
+    gap: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .productTitleInner {
+    flex: 1;
+    min-width: 280px;
+  }
+  .productTitleChild {
+    flex: 1;
+    width: 100%;
+    max-width: 651.7px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .productTitle {
+    gap: 40px;
+    padding: 52px 40px 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .productTitleInner {
+    width: 100%;
+    height: auto;
+  }
+  .productTitleChild {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .cb7 {
+    font-size: 229px;
+    line-height: 412px;
+  }
+  .frameGroup {
+    gap: 18px;
+  }
+  .aCompleteCloudBased {
+    font-size: 42px;
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .productTitle {
+    gap: 30px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+  .cb7 {
+    font-size: 143px;
+    line-height: 275px;
+  }
+  .aCompleteCloudBased {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
