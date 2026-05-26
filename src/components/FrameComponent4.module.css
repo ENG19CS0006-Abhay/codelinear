@@ -1,291 +1,242 @@
-.studyTitles,
-.studyTitlesParent {
-  display: flex;
-  align-items: flex-start;
-}
 .studyTitlesParent {
   width: 100%;
-  background-color: var(--black);
-  overflow: hidden;
-  flex-direction: column;
-  padding: 43.2px 80px 120px;
+  background: #010f14;
+  padding: 50px 80px 80px;
   box-sizing: border-box;
-  gap: 72px;
-  max-width: 100%;
+  overflow: hidden;
+}
+
+.heading {
   text-align: center;
-  font-size: 53px;
-  color: var(--white);
-  font-family: Archivo;
+  color: #e9f4f9;
+  font-size: clamp(40px, 5vw, 72px) !important;
+  font-family: Archivo !important;
+  font-weight: 400 !important;
+  margin-bottom: 70px !important;
 }
-.studyTitles {
-  padding: 0;
-  width: 100%;
-  justify-content: center;
-}
-.ourCaseStudies {
-  margin: 0;
-  height: auto;
-  width: min(463.3px, 100%);
+
+/* Wrapper */
+.caseStudyWrapper {
   position: relative;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.frameParent,
-.layoutsParent {
   display: flex;
-  align-items: flex-end;
-  max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.frameParent {
+
+/* BACK CARDS */
+.cardBehindLeft,
+.cardBehindRight {
+  position: absolute;
+  width: 92%;
+  height: 88%;
+  background: rgba(2, 20, 27, 0.9);
+  border-radius: 32px;
+}
+
+.cardBehindLeft {
+  left: -90px;
+  z-index: 0;
+}
+
+.cardBehindRight {
+  right: -90px;
+  z-index: 0;
+}
+
+.sidePattern {
+  height: 100%;
+  display: flex;
   flex-direction: column;
-  gap: 33.3px;
+  justify-content: center;
+  padding-left: 40px;
+  gap: 50px;
 }
-.layoutsParent {
-  flex-shrink: 0;
+
+.sidePattern img {
+  width: 120px;
+  opacity: 0.35;
 }
-.zoomerrCaseStudy,
-.zoomerrContent {
-  overflow: hidden;
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.zoomerrCaseStudy {
-  border-radius: 18px;
-  background-color: #01141b;
-  align-items: flex-end;
-  padding: 25.5px 12px 31px 24px;
-  gap: 40px;
-  flex-shrink: 0;
+
+/* MAIN CARD */
+.mainCard {
+  position: relative;
   z-index: 2;
-  margin-left: 0;
-  position: relative;
-  text-align: left;
-  font-size: 12px;
-  color: #2490bb;
-  font-family: "Chivo Mono Medium";
   width: 100%;
+  max-width: 1250px;
+  background: #03161d;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  padding: 34px;
+  gap: 48px;
 }
-.zoomerrContent {
-  border-radius: 11.4px;
-  background-color: #07193c;
-  align-items: flex-start;
-  padding: 40px 27px;
-}
-.zoomerrIcons {
-  width: 367.5px;
+
+/* LEFT */
+.imagePanel {
+  flex: 0.95;
+  background: #071d55;
+  border-radius: 28px;
+  min-height: 470px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
-  gap: 24px 90px;
 }
-.vectorIcon {
-  height: 138.7px;
-  width: 138px;
-  position: relative;
+
+.iconGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 52px 80px;
 }
-.caseStudyDetails {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 24.5px;
-  box-sizing: border-box;
-  max-width: 100%;
+
+.icon {
+  width: 150px;
 }
-.frameContainer,
-.frameGroup,
-.gettingStartedParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 46px;
+
+/* RIGHT */
+.contentPanel {
+  flex: 1;
 }
-.frameContainer,
-.gettingStartedParent {
-  gap: 8px;
+
+.subHeading {
+  color: #14a4dd !important;
+  font-size: 15px !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 24px !important;
 }
-.gettingStartedParent {
-  width: 480px;
-  gap: 11px;
+
+.title {
+  color: white !important;
+  font-size: clamp(42px, 4vw, 66px) !important;
+  line-height: 1.18 !important;
+  font-weight: 400 !important;
+  margin-bottom: 36px !important;
 }
-.gettingStarted {
-  position: relative;
-  line-height: 130%;
-  text-transform: uppercase;
-  opacity: 0.8;
+
+.logoWrap {
+  margin-bottom: 40px;
 }
-.howWeHelp {
-  margin: 0;
-  width: 422.6px;
-  position: relative;
-  color: var(--white);
-  display: inline-block;
-}
-.imagePlaceholder {
-  width: 107px;
-  height: 13px;
-  display: flex;
-  align-items: flex-start;
-}
-.frameChild {
-  padding: 10px 183px;
-}
-.frameWrapper {
+
+.readMoreBtn {
   width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 20px;
-  box-sizing: border-box;
-  max-width: 100%;
+  border: 1px solid rgba(255,255,255,.3) !important;
+  border-radius: 16px !important;
+  color: rgba(255,255,255,.55) !important;
+  padding: 18px !important;
 }
-.frameDiv,
-.frameParent2 {
+
+/* Bottom */
+.bottomSection {
+  margin-top: 42px;
   display: flex;
-  flex-shrink: 0;
-}
-.frameDiv {
-  width: 629.1px;
-  align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
-  max-width: 100%;
-}
-.frameParent2 {
   align-items: center;
-  justify-content: center;
-  gap: 31px;
 }
-.frameItem {
-  height: 42px;
-  width: 42px;
-  position: relative;
-  object-fit: contain;
-}
-.ellipseParent {
+
+.carouselControls {
   display: flex;
-  align-items: flex-start;
-  gap: 7.7px;
+  align-items: center;
+  gap: 28px;
+  margin: 0 auto;
 }
-.frameInner {
-  height: 12px;
-  width: 12px;
-  position: relative;
+
+.arrowBtn {
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
-  border: 0.9px solid #0b4b63;
-  box-sizing: border-box;
+  border: 1px solid #08b4ff;
+  background: transparent;
+  color: #08b4ff;
+  cursor: pointer;
+  font-size: 24px;
 }
-.rectBackground {
-  height: 11.9px;
-  width: 38px;
-  position: relative;
-  border-radius: 6px;
-  background-color: #0b4b63;
-}
-.frameIcon {
-  height: 42px;
-  width: 42px;
-  position: relative;
-}
-.component5Wrapper {
+
+.pagination {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10.5px 0 0;
+  gap: 12px;
+  align-items: center;
 }
-@media screen and (max-width: 1350px) {
-  .zoomerrCaseStudy {
-    flex-wrap: wrap;
-  }
-  .caseStudyDetails,
-  .zoomerrContent {
-    flex: 1;
-  }
+
+.pagination span {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #0f88b6;
+  border-radius: 50%;
 }
-@media screen and (max-width: 1125px) {
+
+.pagination .active {
+  width: 42px;
+  border-radius: 20px;
+  background: #0f88b6;
+}
+
+.viewAllBtn {
+  background: transparent;
+  border: none;
+  color: #08b4ff;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
   .studyTitlesParent {
-    padding-top: 28px;
-    padding-bottom: 80px;
-    box-sizing: border-box;
+    padding: 40px;
   }
-  .zoomerrCaseStudy {
-    gap: 39px;
+
+  .mainCard {
+    gap: 30px;
   }
-}
-@media screen and (max-width: 800px) {
-  .studyTitlesParent {
-    gap: 36px;
-    padding: 28px 40px 60px;
-    box-sizing: border-box;
+
+  .imagePanel {
+    min-height: 360px;
   }
-  .ourCaseStudies {
-    font-size: 42px;
-    line-height: 51px;
-  }
-  .frameParent {
-    gap: 17px;
-    width: 100%;
-  }
-  .layoutsParent {
-    width: 100%;
-  }
-  .zoomerrCaseStudy {
-    gap: 19px;
-    flex-direction: column;
-  }
-  .caseStudyDetails,
-  .zoomerrContent {
-    min-width: 100%;
-    width: 100%;
-  }
-  .frameGroup {
-    gap: 23px;
-  }
-  .howWeHelp {
-    font-size: 34px;
-    line-height: 41px;
-    width: 100%;
-  }
-  .gettingStartedParent {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .studyTitlesParent {
-    gap: 18px;
-    padding: 20px 20px 50px;
-    box-sizing: border-box;
-  }
-  .ourCaseStudies {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .zoomerrCaseStudy,
-  .zoomerrContent {
-    padding-bottom: 20px;
-    box-sizing: border-box;
-  }
-  .zoomerrContent {
-    padding-top: 25.5px;
-    padding-bottom: 26px;
-  }
-  .zoomerrIcons {
-    gap: 45px;
-  }
-  .howWeHelp {
-    font-size: 26px;
-    line-height: 31px;
-  }
-  .frameDiv {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .frameChild {
-    padding-left: 20px;
-    padding-right: 20px;
+
+  .icon {
+    width: 110px;
   }
 }
 
+/* Mobile */
+@media (max-width: 768px) {
+  .studyTitlesParent {
+    padding: 30px 20px 50px;
+  }
+
+  .heading {
+    margin-bottom: 40px !important;
+  }
+
+  .mainCard {
+    flex-direction: column;
+    padding: 20px;
+    gap: 28px;
+  }
+
+  .imagePanel {
+    width: 100%;
+    min-height: 280px;
+  }
+
+  .iconGrid {
+    gap: 24px;
+  }
+
+  .icon {
+    width: 80px;
+  }
+
+  .contentPanel {
+    text-align: center;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .cardBehindLeft,
+  .cardBehindRight {
+    display: none;
+  }
+}

@@ -8,6 +8,7 @@ import styles from "./FrameComponent2.module.css";
 export type FrameComponent2Type = {
   className?: string;
 };
+const baseFont = "'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
 
 const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   className = "",
@@ -186,56 +187,102 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
           >
             N7
           </Typography>
-          <Box className={styles.takeTheFullAdvantageOfGoiParent}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "16px",
+              zIndex: 1,
+              maxWidth: { xs: "100%", md: "58%" },
+            }}
+          >
             <Typography
-              className={styles.takeTheFull}
-              variant="inherit"
-              variantMapping={{ inherit: "h1" }}
+              variant="h3"
               sx={{
+                fontFamily: baseFont,
                 fontWeight: "400",
+                fontSize: { xs: "28px", sm: "38px", md: "44px" },
                 lineHeight: "120%",
-                letterSpacing: "-0.01em",
+                letterSpacing: "-0.012em",
+                color: "#ffffff",
               }}
             >
               Take the full advantage of going paper-less now.
             </Typography>
-            <div
-              className={styles.n7HelpsYour2}
-            >{`N7 helps your financial institution improve the client experience, automate and optimize procedures, simplify banking operations `}</div>
+            <Typography
+              sx={{
+                fontFamily: baseFont,
+                fontSize: { xs: "14px", sm: "15px" },
+                lineHeight: "150%",
+                color: "rgba(233, 244, 249, 0.65)",
+                maxWidth: "520px",
+              }}
+            >
+              N7 helps your financial institution improve the client experience, automate and optimize procedures, simplify banking operations
+            </Typography>
           </Box>
-          <Box className={styles.frameWrapper}>
-            <Box className={styles.instanceGroup}>
-              <Button
-                className={styles.frameChild2}
-                disableElevation
-                variant="outlined"
-                sx={{
-                  color: "#e9f4f9",
-                  fontSize: "15",
-                  borderColor: "#e9f4f9",
-                  borderRadius: "10px",
-                  "&:hover": { borderColor: "#e9f4f9" },
-                }}
-              >
-                Contact Us
-              </Button>
-              <Button
-                className={styles.frameButton}
-                disableElevation
-                variant="contained"
-                sx={{
-                  color: "#fff",
-                  fontSize: "15",
-                  background: "linear-gradient(106.53deg, #00b4fd, #003ace)",
-                  borderRadius: "10px",
-                  "&:hover": {
-                    background: "linear-gradient(106.53deg, #00b4fd, #003ace)",
-                  },
-                }}
-              >
-                REQUEST DEMO
-              </Button>
-            </Box>
+
+          {/* Right Action Buttons */}
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: { xs: "column", sm: "row" },
+              alignItems: "center",
+              gap: "16px",
+              zIndex: 1,
+              width: { xs: "100%", sm: "auto" },
+            }}
+          >
+            <Button
+              disableElevation
+              variant="outlined"
+              sx={{
+                color: "#e9f4f9",
+                fontSize: "13px",
+                fontWeight: "600",
+                letterSpacing: "0.1em",
+                borderColor: "rgba(233, 244, 249, 0.3)",
+                borderRadius: "8px",
+                padding: "14px 28px",
+                width: { xs: "100%", sm: "auto" },
+                minWidth: "160px",
+                textTransform: "uppercase",
+                fontFamily: baseFont,
+                transition: "all 0.25s ease",
+                "&:hover": {
+                  borderColor: "#00b4fd",
+                  backgroundColor: "rgba(0, 180, 253, 0.05)",
+                  transform: "translateY(-2px)",
+                },
+              }}
+            >
+              Contact Us
+            </Button>
+            <Button
+              disableElevation
+              variant="contained"
+              sx={{
+                color: "#ffffff",
+                fontSize: "13px",
+                fontWeight: "600",
+                letterSpacing: "0.1em",
+                background: "linear-gradient(106.53deg, #00b4fd, #003ace)",
+                borderRadius: "8px",
+                padding: "14px 28px",
+                width: { xs: "100%", sm: "auto" },
+                minWidth: "160px",
+                textTransform: "uppercase",
+                fontFamily: baseFont,
+                transition: "all 0.25s ease",
+                "&:hover": {
+                  background: "linear-gradient(106.53deg, #008cc5, #002b9e)",
+                  transform: "translateY(-2px)",
+                },
+              }}
+            >
+              Request Demo
+            </Button>
           </Box>
         </Box>
       </Box>

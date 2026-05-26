@@ -1,31 +1,106 @@
-.bannerParts {
-  margin-left: -1049.1px;
+/* ── Outer wrapper: clips overflow, adds fade edges ── */
+.marqueeWrapper {
+  width: 100%;
+  overflow: hidden;
+  /* Dark background — without this, white text is invisible on a light page */
+  background-color: #05080f;
+  padding: 20px 0;
+  /* Fade left/right edges for polish */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+}
+
+/*
+  ── Track: holds N clones, slides left by (100% / N) ──
+  We use JS to inject the correct count, but the animation
+  always runs translateX(-50%) which equals one full copy
+  when there are exactly 2 copies.
+  For extra safety we duplicate more times — see the TSX.
+*/
+.marqueeTrack {
   display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: ticker 30s linear infinite;
+}
+
+.marqueeWrapper:hover .marqueeTrack {
+  animation-play-state: paused;
+}
+
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── One strip (one copy of the repeating content) ── */
+.bannerStrip {
+  /* flex-shrink:0 is critical — each strip must never compress */
+  display: inline-flex;
+  flex-shrink: 0;
   align-items: center;
-  gap: 24px;
-  text-align: left;
-  font-size: 47px;
-  color: var(--black);
-  font-family: Archivo;
+  gap: 0; /* spacing handled by separator items inside */
+  white-space: nowrap;
+  font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
-.bannerItemsIcon {
-  height: 58px;
-  width: 58px;
-  position: relative;
+
+/* ── Individual items inside each strip ── */
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  padding: 0 32px;
+  font-size: clamp(20px, 2.5vw, 36px);
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1;
+  white-space: nowrap;
 }
-.n7 {
-  background: var(--sky);
+
+/* Gradient "N7" text */
+.itemHighlight {
+  background: linear-gradient(106.53deg, #00b4fd, #003ace);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
 }
-.n7,
-.say {
-  margin: 0;
-  position: relative;
+
+/* Separator diamond / star icon */
+.separator {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(233, 244, 249, 0.45);
+  font-size: clamp(10px, 1.2vw, 16px);
+  flex-shrink: 0;
+  padding: 0 8px;
 }
-.httpslottiefilescomanimatIcon {
-  height: 66px;
-  width: 93.1px;
-  position: relative;
+
+/* Wave emoji / lottie image */
+.waveIcon {
+  height: clamp(32px, 4vw, 54px);
+  width: auto;
   object-fit: contain;
+  flex-shrink: 0;
+  margin: 0 8px;
+}
+
+/* Small icon (Banner-Items.svg) */
+.dotIcon {
+  height: clamp(28px, 3.5vw, 48px);
+  width: clamp(28px, 3.5vw, 48px);
+  object-fit: contain;
+  flex-shrink: 0;
 }
