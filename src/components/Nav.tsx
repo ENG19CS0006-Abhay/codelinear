@@ -10,7 +10,7 @@ export type NavType = {
   user11?: string;
 
   /** Variant props */
-  property1?: CSSProperties["property1"];
+  property1?: string;
 
   /** Style props */
   navWidth?: CSSProperties["width"];

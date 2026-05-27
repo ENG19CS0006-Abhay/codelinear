@@ -8,7 +8,7 @@ export type FeatureContainersType = {
   frame26?: string;
   coreBankingCB7?: string;
   cBHelpsYourFinancialInstitutio?: string;
-  property1?: CSSProperties["property1"];
+  property1?: string;
 
   /** Style props */
   coreBankingCB7Opacity?: CSSProperties["opacity"];

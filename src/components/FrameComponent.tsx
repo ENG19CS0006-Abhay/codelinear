@@ -7,7 +7,7 @@ export type FrameComponentType = {
   className?: string;
 
   /** Variant props */
-  property1?: CSSProperties["property1"];
+  property1?: string;
 };
 
 const FrameComponent: FunctionComponent<FrameComponentType> = ({

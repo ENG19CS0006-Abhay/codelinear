@@ -7,7 +7,7 @@ export type FeatureContainers1Type = {
   className?: string;
   separators?: string;
   loanOriginationSystem?: string;
-  property1?: CSSProperties["property1"];
+  property1?: string;
 
   /** Style props */
   frameBoxPadding?: CSSProperties["padding"];

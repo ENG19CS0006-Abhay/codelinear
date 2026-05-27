@@ -6,7 +6,7 @@ export type Component5Type = {
   className?: string;
 
   /** Variant props */
-  property1?: CSSProperties["property1"];
+  property1?: string;
 };
 
 const Component5: FunctionComponent<Component5Type> = ({

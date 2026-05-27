@@ -5,7 +5,7 @@ import styles from "./Layouts.module.css";
 
 export type LayoutsType = {
   className?: string;
-  property1?: CSSProperties["property1"];
+  property1?: string;
 
   /** Style props */
   layoutsMarginLeft?: CSSProperties["marginLeft"];

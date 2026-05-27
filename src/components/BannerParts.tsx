@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, type CSSProperties } from "react";
 import { Box } from "@mui/material";
 import styles from "./BannerParts.module.css";
 
@@ -6,6 +6,8 @@ export type BannerPartsType = {
   className?: string;
   /** The gradient label, e.g. "N7" */
   n7?: string;
+  /** Optional margin-left style */
+  bannerPartsMarginLeft?: CSSProperties["marginLeft"];
 };
 
 /**
@@ -56,12 +58,14 @@ const COPIES = 8; // must be even for the -50% trick to work
 const BannerParts: FunctionComponent<BannerPartsType> = ({
   className = "",
   n7,
+  bannerPartsMarginLeft,
 }) => {
   return (
     <Box
       className={[styles.marqueeWrapper, className].join(" ")}
       role="marquee"
       aria-label="N7 — Say hello to the new way of banking"
+      sx={{ marginLeft: bannerPartsMarginLeft }}
     >
       <div className={styles.marqueeTrack}>
         {/* One logical "half" — the animation scrolls exactly this far */}
